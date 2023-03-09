@@ -1,0 +1,46 @@
+*{box-sizing: border-box;}
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+body{
+    font-family: Outfit, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+main{
+    width: 100%;
+    max-width: 400px;
+    min-width: 310px;
+    padding: .5rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+article{
+    width: 100%;
+    margin: 0 auto;
+}
+article img{
+    width: 98%;
+    border-radius: 10px;
+    margin: 5px auto;
+    display: flex;
+}
+article section{
+    padding: 0 2rem;
+    text-align: center;
+}
+section .subtitulo{
+    color: hsl(218, 44%, 22%);
+}
+section .texto{
+    color: hsl(220, 15%, 55%);
+}
